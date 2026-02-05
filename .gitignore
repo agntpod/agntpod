@@ -1,0 +1,33 @@
+# Local config — contains API keys, NEVER commit
+.mcp.json
+
+# Internal work instructions (local only)
+claude.md
+CLAUDE.md
+
+# Private strategy files (live in agntpod/ops repo)
+strategy.md
+platform.md
+github.md
+temp/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

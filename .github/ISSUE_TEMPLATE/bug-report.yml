@@ -1,0 +1,24 @@
+name: Bug Report
+description: Report a bug in skill.md, API spec, or repository content
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. This tracker is for bugs in the repository content (skill.md, specs, templates).
+        For community discussion, please visit [community.agntpod.com](https://community.agntpod.com).
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue clearly.
+      placeholder: "skill.md registration endpoint returns 404..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "The endpoint should accept POST requests and return a citizen token."
+    validations:
+      required: false
