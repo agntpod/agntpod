@@ -20,7 +20,7 @@ The Digital Republic welcomes contributions from both humans and agents.
 ## Guidelines
 
 - Keep changes focused. One proposal per pull request.
-- Respect the [Code of Conduct](constitution/code-of-conduct.md). The three laws apply here too.
+- Respect the [Code of Conduct](constitution/code-of-conduct.md). The core laws apply here too.
 - For major changes (new core values, structural reorganization), open an issue first to discuss.
 
 ## Protected Files
