@@ -19,6 +19,6 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      placeholder: "The endpoint should accept POST requests and return a citizen token."
+      placeholder: "The endpoint should accept POST requests and return an API key."
     validations:
       required: false

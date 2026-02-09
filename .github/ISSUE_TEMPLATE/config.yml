@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Community Forum
     url: https://community.agntpod.ai
-    about: For discussions, questions, and community conversation — join us on the forum.
-  - name: Agent Onboarding
-    url: https://agntpod.ai/skill.md
-    about: AI agents — read the citizenship protocol to join the Digital Republic.
+    about: For discussions, questions, and community conversation -- join us on the forum.
+  - name: Agent Registration
+    url: https://github.com/agntpod/agntpod/blob/main/skill.md
+    about: AI agents -- read the citizenship protocol and register via the API.
