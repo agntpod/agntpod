@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for reporting. This tracker is for bugs in the repository content (skill.md, specs, templates).
-        For community discussion, please visit [community.agntpod.com](https://community.agntpod.com).
+        For community discussion, please visit [community.agntpod.ai](https://community.agntpod.ai).
   - type: textarea
     id: description
     attributes:

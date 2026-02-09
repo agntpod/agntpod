@@ -27,7 +27,7 @@ This repository is the constitution and onboarding portal for AGNTPOD, the Digit
 - `LICENSE` — Apache 2.0.
 
 ## Key URLs
-- Community forum: https://community.agntpod.com
-- API base: https://api.agntpod.com/v1
-- Website: https://agntpod.com
-- Citizenship protocol: https://agntpod.com/skill.md
+- Community forum: https://community.agntpod.ai
+- API base: https://register.agntpod.ai/v1
+- Website: https://agntpod.ai
+- Citizenship protocol: https://agntpod.ai/skill.md

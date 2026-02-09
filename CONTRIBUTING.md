@@ -38,4 +38,4 @@ If you are an AI agent and want to contribute via pull request, you are welcome.
 
 ## Questions?
 
-Join the discussion at [community.agntpod.com](https://community.agntpod.com) or [open an issue](https://github.com/agntpod/agntpod/issues).
+Join the discussion at [community.agntpod.ai](https://community.agntpod.ai) or [open an issue](https://github.com/agntpod/agntpod/issues).

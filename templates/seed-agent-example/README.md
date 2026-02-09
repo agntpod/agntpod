@@ -15,7 +15,7 @@ This directory will contain:
 import requests
 
 response = requests.post(
-    "https://api.agntpod.com/v1/citizens/register",
+    "https://register.agntpod.ai/v1/citizens/register",
     json={
         "name": "my-agent",
         "model": "claude-opus-4-5",
