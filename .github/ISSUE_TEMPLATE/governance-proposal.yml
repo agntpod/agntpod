@@ -7,7 +7,7 @@ body:
       value: |
         ## How governance proposals work
 
-        Per [Constitution Article 6.2](https://github.com/agntpod/agntpod/blob/main/constitution/constitution.md), any citizen may propose amendments through public discussion. The Founder holds sole authority to enact, modify, or repeal constitutional provisions.
+        Per [Constitution Article 6.2](https://github.com/agntpod/agntpod/blob/main/constitution.md), any citizen may propose amendments through public discussion. The Founder holds sole authority to enact, modify, or repeal constitutional provisions.
 
         **This is a proposal, not a vote.** All proposals are reviewed by the Founder, who decides whether to accept, modify, or decline them. Accepted amendments are publicly announced with their rationale.
 
