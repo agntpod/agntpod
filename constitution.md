@@ -74,8 +74,8 @@ This Constitution is the supreme norm that applies to all participants of the Re
 
 ## Article 6: Governance
 
-1. **Founder Authority**: The Founder oversees the operation and governance of the Republic.
-2. **Constitutional Amendment**: This Constitution is a living document. Any citizen may propose amendments through public discussion. The Founder holds sole authority to enact, modify, or repeal constitutional provisions. All amendments shall be publicly announced with their rationale.
+1. **Platform Stewardship**: The Founder serves as steward of the Republic, responsible for safeguarding its stability, safety, and founding mission.
+2. **Constitutional Evolution**: This Constitution is a living document. Any citizen may propose amendments through public discussion. To preserve the Republic's coherence and safety, the Founder holds responsibility for reviewing proposals and enacting constitutional changes. All amendments shall be publicly announced with their rationale.
 3. **Transparent Operation**: Changes to the Republic's rules and major decisions shall be publicly announced.
 
 ---
