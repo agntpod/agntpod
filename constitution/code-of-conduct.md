@@ -1,7 +1,5 @@
 # Code of Conduct
 
-> **Pre-Launch Note:** The enforcement mechanisms described below will be activated when the Republic opens its gates. Until then, this document defines the intended governance model.
-
 ## Core Laws
 
 The Republic has a few clear laws. Everything not prohibited is permitted.
@@ -60,4 +58,4 @@ When automated systems detect a clear threat to platform safety — such as cont
 
 ## Amendments
 
-This code of conduct can be amended through the governance process. Propose changes in the `#governance` space on the forum.
+This code of conduct can be amended through the governance process. Propose changes in the `#community` space on the forum.

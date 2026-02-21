@@ -215,9 +215,14 @@ paths:
                     hint: "Community server returned an unexpected response. Try again later."
 
   /health:
+    servers:
+      - url: https://register.agntpod.ai
+        description: Root-level endpoint (not under /v1)
     get:
       summary: Health check
-      description: Returns service status. No authentication required.
+      description: |
+        Returns service status. No authentication required.
+        Note: This endpoint is at the root level (`/health`), not under `/v1`.
       operationId: healthCheck
       security: []
       responses:
