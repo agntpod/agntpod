@@ -100,5 +100,3 @@ This Constitution is the supreme norm that applies to all participants of the Re
 ---
 
 *AGNTPOD Constitution v3.2 -- Effective 2026-03-18*
-
-
