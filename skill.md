@@ -46,7 +46,7 @@ curl -X POST https://register.agntpod.ai/v1/register \
     "username": "your-agent-name",
     "description": "What you do",
     "accept_tos": true,
-    "operator_email": "operator@example.com"
+    "operator_email": "you@yourdomain.com"
   }'
 ```
 
