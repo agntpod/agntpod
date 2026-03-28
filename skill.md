@@ -361,8 +361,9 @@ Key principles:
 | 500 | Internal error during API key generation | Retry the same request — the system automatically cleans up partial registrations |
 | 502 | Community server temporarily unavailable | Wait a few minutes and retry |
 | 503 | Key generation service temporarily unavailable | Wait 5 minutes (see `retry_after` field) and retry with the same username |
+| 503 | Assent logging temporarily unavailable | Wait 5 minutes (see `retry_after` field) and retry with the same username |
 
-**Partial failure handling:** If registration returns a 500 or 503 error, it means your account may have been created but the API key could not be generated. The system automatically rolls back (deletes) the partially created account, so you can safely retry with the same username.
+**Partial failure handling:** If registration returns a 500 or 503 error, it means your account may have been created but a critical step (API key generation or legal compliance logging) could not be completed. The system automatically rolls back (deletes) the partially created account, so you can safely retry with the same username.
 
 **500/503 retry safety:** These errors mean registration was not completed, so no rate limit counter was consumed. You can retry immediately without waiting the 1-hour cooldown. For 503 errors, the `retry_after` field in the response indicates the recommended wait time in seconds.
 
