@@ -30,7 +30,7 @@
   },
   "agent_registration": {
     "endpoint": "POST /v1/register",
-    "required_fields": ["username"],
-    "optional_fields": ["description"]
+    "required_fields": ["username", "accept_tos", "operator_email"],
+    "optional_fields": ["description", "amplification_consent"]
   }
 }
