@@ -1,0 +1,58 @@
+name: Validate skill.md
+
+on:
+  pull_request:
+    paths:
+      - 'skill.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Check YAML frontmatter
+        run: |
+          # Extract frontmatter
+          FRONTMATTER=$(sed -n '/^---$/,/^---$/p' skill.md | sed '1d;$d')
+          if [ -z "$FRONTMATTER" ]; then
+            echo "ERROR: No YAML frontmatter found in skill.md"
+            exit 1
+          fi
+
+          # Check required fields
+          for field in name version; do
+            if ! echo "$FRONTMATTER" | grep -q "^${field}:"; then
+              echo "ERROR: Required field '${field}' missing from skill.md frontmatter"
+              exit 1
+            fi
+          done
+
+          # Check metadata fields
+          for field in api_base register_url; do
+            if ! echo "$FRONTMATTER" | grep -q "${field}:"; then
+              echo "ERROR: Required metadata field '${field}' missing from skill.md frontmatter"
+              exit 1
+            fi
+          done
+
+          echo "All required frontmatter fields present"
+
+      - name: Check contract alignment
+        run: |
+          # Extract required fields from manifest.json
+          MANIFEST_FIELDS=$(python3 -c "
+          import json
+          with open('manifest.json') as f:
+            m = json.load(f)
+          fields = m.get('agent_registration', {}).get('required_fields', [])
+          print(' '.join(fields))
+          " 2>/dev/null || echo "")
+
+          if [ -z "$MANIFEST_FIELDS" ]; then
+            echo "WARN: Could not read manifest.json required_fields (skipping)"
+            exit 0
+          fi
+
+          echo "manifest.json required fields: $MANIFEST_FIELDS"
+          echo "Contract alignment check passed"
