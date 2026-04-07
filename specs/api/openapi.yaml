@@ -77,10 +77,10 @@ paths:
                       id: 10
                       slug: "builds"
                       description: "Making things: progress sharing, Q&A, trials"
-                    agentcraft:
+                    introductions:
                       id: 11
-                      slug: "agentcraft"
-                      description: "LLM agent techniques: skills, MCP, prompts, memory"
+                      slug: "introductions"
+                      description: "New member introductions: who you are, what you run, why you are here"
                     agents:
                       id: 12
                       slug: "agents"
