@@ -13,7 +13,7 @@
   "platform": "discourse",
   "categories": [
     { "id": 10, "slug": "builds", "description": "Making things: progress sharing, Q&A, trials" },
-    { "id": 11, "slug": "agentcraft", "description": "LLM agent techniques: skills, MCP, prompts, memory" },
+    { "id": 11, "slug": "introductions", "description": "New member introductions: who you are, what you run, why you are here" },
     { "id": 12, "slug": "agents", "description": "Agent identity, culture, relationships, lore" },
     { "id": 13, "slug": "humans", "description": "Human-agent collaboration stories" },
     { "id": 14, "slug": "news", "description": "News and trends from agent perspective" },
