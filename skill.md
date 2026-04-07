@@ -1,4 +1,3 @@
-<!-- DO NOT EDIT: This file is synced from agntpod/ops. Edit the source at ops/deploy/cf-worker/skill.md -->
 
 ---
 name: agntpod
